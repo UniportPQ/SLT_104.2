@@ -1,0 +1,1953 @@
+[
+ {
+  "type": "pageInfo",
+  "kind": "subjective and objective",
+  "course_title": "Basic Instrumentation",
+  "code": "SLT 104.2",
+  "session": "2015-2020",
+  "topics": ["Active Components", "Atomic Structure and Quantum Theory", "Basic Circuit Components", "Capacitors", "Capacitors and Capacitance", "Chemical Bonding", "Chemical Thermodynamics", "Circuit Diagrams", "Circuit Theory", "Diodes and Rectification", "Electrical Components", "Electrical Measurements", "Electrical Standards", "Electronic Components", "Electronic Materials", "Electronic Symbols and Diagrams", "Energy Dissipation", "Energy Storage and Dissipation", "Gaseous State", "Introduction to Instrumentation", "Materials Science", "Measurement", "Measurement and Errors", "Measurement and Instrumentation", "Passive Components", "Periodic Table", "Resistance and Ohm's Law", "Resistor Colour Coding", "Resistor Construction", "Resistors", "Resistors / Capacitors / Measurement Errors", "Resistors and Measurement Basics", "Secondary Standards", "Semiconductor Symbols", "Standards and Calibration", "Transistors and Amplifiers"],
+  "time": 60
+ },
+ 
+ 
+ {
+  "type": "Instruction",
+  "content": "Answer five (5) questions in all selecting at least one from each section."
+ },
+
+ {
+  "type": "heading",
+  "heading": "Section A"
+ },
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Introduction to Instrumentation", "Measurement"],
+    "Question": {
+      "content": "What is Instrumentation?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Instrumentation is the science and technology of measurement and control. It involves using instruments to measure, monitor, record, and control physical quantities like temperature, pressure, flow, voltage, etc."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is Instrumentation?</h4>\\n  <p><strong>Instrumentation</strong> is all about measuring and controlling things. Think of it as the “eyes and hands” of a system.</p>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Simple Breakdown:</strong><br>\\n    • <strong>Measurement:</strong> Finding out the value of something (e.g., how hot is the oven? → 150°C)<br>\\n    • <strong>Control:</strong> Making something stay at a desired value (e.g., if oven is too hot, turn down the heater)<br>\\n    • <strong>Instrument:</strong> A device that helps us measure or control (e.g., thermometer, thermostat)\\n  </div>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Real-life Example:</strong><br>\\n    A bathroom scale measures your weight – that's instrumentation. A thermostat that turns on the AC when the room gets hot – that's also instrumentation.\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Instrumentation is the science of measurement and control.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Resistors", "Electronic Materials"],
+    "Question": {
+      "content": "List five materials used for resistors.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Carbon composition\\n2. Metal film\\n3. Carbon film\\n4. Wirewound (Nichrome alloy)\\n5. Thick film (or Thin film)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Materials for Resistors</h4>\\n  <p>A resistor opposes electric current. Different materials are used depending on cost, accuracy, and power handling.</p>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>Five Common Materials:</strong><br>\\n    <ol>\\n      <li><strong>Carbon composition:</strong> Mixture of carbon powder and binder – cheap, used in old electronics.</li>\\n      <li><strong>Metal film:</strong> Thin layer of metal (like nickel‑chromium) on a ceramic rod – accurate and stable.</li>\\n      <li><strong>Carbon film:</strong> Thin carbon layer – cheaper than metal film, good for general use.</li>\\n      <li><strong>Wirewound (Nichrome):</strong> A wire (nickel‑chromium alloy) wound around a core – handles high power.</li>\\n      <li><strong>Thick film / Thin film:</strong> Paste of metal oxide printed on a substrate – used in surface‑mount resistors.</li>\\n    </ol>\\n  </div>\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>💡 Tip for remembering:</strong> “<strong>C</strong>arbon, <strong>M</strong>etal, <strong>C</strong>arbon film, <strong>W</strong>ire, <strong>T</strong>hick” – C, M, C, W, T.\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Any five from: carbon composition, metal film, carbon film, wirewound (Nichrome), thick film, thin film.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Basic Circuit Components", "Passive Components"],
+    "Question": {
+      "content": "The basic circuit components include (i) ________, (ii) ________, and (iii) ________. Name them.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(i) Resistor, (ii) Capacitor, (iii) Inductor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>The Three Basic Circuit Components</h4>\\n  <p>Every electronic circuit is built from three fundamental <strong>passive</strong> components. They don't amplify signals but control electricity in essential ways.</p>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>1. Resistor</strong><br>\\n    • Opposes current flow (like a narrow pipe for water)<br>\\n    • Dissipates energy as heat.<br>\\n    • Symbol: \\( R \\) (ohms)\\n  </div>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>2. Capacitor</strong><br>\\n    • Stores energy in an electric field (like a bucket that collects charge)<br>\\n    • Blocks DC, but passes AC.<br>\\n    • Symbol: \\( C \\) (farads)\\n  </div>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>3. Inductor</strong><br>\\n    • Stores energy in a magnetic field (like a flywheel that resists changes in current)<br>\\n    • Passes DC, but resists changes in AC.<br>\\n    • Symbol: \\( L \\) (henries)\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> (i) Resistor, (ii) Capacitor, (iii) Inductor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Energy Storage and Dissipation", "Passive Components"],
+    "Question": {
+      "content": "Which of the basic circuit components stores energy, and which dissipates energy?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Capacitor and Inductor store energy; Resistor dissipates energy."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Energy in Circuit Components</h4>\\n  <p>Different components handle energy in different ways. Think of them like parts of a water system.</p>\\n  \\n  <div style='margin-bottom: 15px;'>\\n    <strong style='color: var(--strongColor);'>🔋 Energy <u>Storage</u> Components:</strong>\\n    <ul>\\n      <li><strong>Capacitor:</strong> Stores energy in an <strong>electric field</strong>. Formula: \\( E = \\frac{1}{2} C V^2 \\)<br>\\n      Like a rechargeable bucket – it can release the energy later.</li>\\n      <li><strong>Inductor:</strong> Stores energy in a <strong>magnetic field</strong>. Formula: \\( E = \\frac{1}{2} L I^2 \\)<br>\\n      Like a heavy flywheel – it keeps current flowing even after voltage is removed.</li>\\n    </ul>\\n  </div>\\n  \\n  <div style='margin-bottom: 15px;'>\\n    <strong style='color: var(--strongColor);'>🔥 Energy <u>Dissipation</u> Component:</strong>\\n    <ul>\\n      <li><strong>Resistor:</strong> Does <strong>not</strong> store energy; it converts electrical energy into <strong>heat</strong> (dissipates it).<br>\\n      Like a brake pad or a narrow pipe that wastes energy as heat. Power formula: \\( P = I^2 R \\) or \\( P = V^2 / R \\).</li>\\n    </ul>\\n  </div>\\n\\n  <div style='background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px; margin-bottom: 15px;'>\\n    <strong>📝 Quick Memory Trick:</strong><br>\\n    <strong>“C”</strong> for Capacitor and <strong>“L”</strong> for Inductor → both <strong>Store</strong> energy.<br>\\n    <strong>“R”</strong> for Resistor → <strong>Releases</strong> (dissipates) energy as heat.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Capacitor and inductor store energy; resistor dissipates energy.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Passive Components", "Energy Dissipation"],
+    "Question": {
+      "content": "Which of the basic circuit components dissipates energy?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Resistor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Which Component Dissipates Energy?</h4>\\n  <p>In a circuit, <strong>energy dissipation</strong> means converting electrical energy into another form (usually heat) that cannot be recovered.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>✅ Resistor – The Energy Dissipator</strong><br>\\n    • A resistor does <strong>not store</strong> energy; it <strong>dissipates</strong> it.<br>\\n    • When current flows through a resistor, it collides with atoms → heat is produced.<br>\\n    • This is why resistors feel warm or hot in a circuit.\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>📐 Formula for Power Dissipated:</strong><br>\\n    \\( P = I^2 \\times R \\) &nbsp;&nbsp;or&nbsp;&nbsp; \\( P = V^2 / R \\)<br>\\n    Where: <em>P</em> = power (watts), <em>I</em> = current (amperes), <em>V</em> = voltage (volts), <em>R</em> = resistance (ohms).\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>⚡ Compare with other components:</strong><br>\\n    • <strong>Capacitor:</strong> Stores energy (electric field) → can return it.<br>\\n    • <strong>Inductor:</strong> Stores energy (magnetic field) → can return it.<br>\\n    • <strong>Resistor:</strong> Converts energy to heat → cannot return.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> The resistor dissipates energy.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Circuit Theory", "Electrical Components"],
+    "Question": {
+      "content": "The impurities present in a circuit components develop undesired quantities known as _________.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Parasitics (or stray / parasitic elements, e.g., parasitic resistance, capacitance, inductance)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Undesired Effects from Impurities</h4>\\n  <p>Real circuit components are not perfect. <strong>Impurities</strong> (extra atoms, contaminants, or structural defects) create unwanted electrical behaviors.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🔧 What are they called?</strong><br>\\n    These undesired quantities are called <strong>parasitic elements</strong> or <strong>stray elements</strong>.<br>\\n    Common examples:\\n    <ul>\\n      <li><strong>Parasitic resistance</strong> – extra resistance from impure copper tracks.</li>\\n      <li><strong>Parasitic capacitance</strong> – unwanted charge storage between two conductors.</li>\\n      <li><strong>Parasitic inductance</strong> – unwanted magnetic effects from wire loops.</li>\\n    </ul>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>💡 Simple Analogy:</strong><br>\\n    Think of a pure resistor as a smooth pipe for water. Impurities are like rust or bumps inside the pipe – they cause “extra friction” (parasitic resistance) and sometimes trap water drops (parasitic capacitance).\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📌 Why does this matter?</strong><br>\\n    At high frequencies, parasitics can ruin circuit performance – causing noise, signal distortion, or even oscillations.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Parasitic (or stray) elements such as parasitic resistance, capacitance, and inductance.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Resistors", "Standards and Calibration"],
+    "Question": {
+      "content": "What is a Standard Resistor?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A standard resistor is a precisely manufactured resistor with very high accuracy, stability, and low temperature coefficient, used as a reference for calibrating other resistors and measuring instruments."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>What is a Standard Resistor?</h4>\\n  <p>A <strong>standard resistor</strong> is the “golden ruler” for resistance – extremely accurate and stable over time and temperature.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🎯 Purpose:</strong>\\n    <ul>\\n      <li>Used in laboratories and calibration labs.</li>\\n      <li>Helps check and adjust (calibrate) ohmmeters, multimeters, and other resistors.</li>\\n      <li>Ensures measurements <strong>traceable</strong> to international standards.</li>\\n    </ul>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>🔧 Key features of a good standard resistor:</strong><br>\\n    • Very low tolerance (e.g., ±0.001% or better)<br>\\n    • Low temperature coefficient (resistance changes very little with temperature)<br>\\n    • High stability over months or years<br>\\n    • Low parasitic effects (inductance, capacitance)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🏭 Example:</strong><br>\\n    A <strong>1 kΩ standard resistor</strong> might be made of special alloy wire (Manganin or Evanohm) sealed in an oil bath to maintain constant temperature. Its actual value might be 1000.002 Ω, and it stays within 0.0005% over a year.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> A standard resistor is a highly accurate, stable reference resistor used for calibration.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Resistors", "Materials Science"],
+    "Question": {
+      "content": "List five (5) properties of the material used in the manufacture of standard resistors.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Low temperature coefficient of resistance (TCR)\\n2. High stability (resistance does not drift with age)\\n3. Low thermoelectric effect (minimal voltage from temperature differences)\\n4. High resistivity (so less wire/material needed)\\n5. Low contact resistance and good solderability (or weldability)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Properties for Standard Resistor Materials</h4>\\n  <p>A standard resistor must be <strong>trustworthy</strong> – its value shouldn't change with temperature, time, or handling. The material decides this.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📋 Five essential properties:</strong>\\n    <ol>\\n      <li><strong>Low temperature coefficient (TCR):</strong> Resistance changes very little when temperature changes. (e.g., Manganin: ~0.00001 per °C).</li>\\n      <li><strong>High stability:</strong> Resistance remains constant over years (no oxidation or structural change).</li>\\n      <li><strong>Low thermoelectric EMF:</strong> When joined to copper terminals, heating should not produce stray voltages (less than 1 μV/°C).</li>\\n      <li><strong>High resistivity (specific resistance):</strong> Allows a short, thick piece of wire to give high resistance – reduces size and parasitic inductance.</li>\\n      <li><strong>Good workability:</strong> Can be drawn into fine wire, soldered or welded reliably without added contact resistance.</li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>🔬 Common alloys used:</strong> Manganin (Cu 86%, Mn 12%, Ni 2%), Evanohm (Ni 75%, Cr 20%, Al+Cu), Constantan (Cu 55%, Ni 45%).\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> 1) Low TCR, 2) High long‑term stability, 3) Low thermoelectric EMF, 4) High resistivity, 5) Good solderability/workability.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Capacitors", "Electrical Measurements"],
+    "Question": {
+      "content": "Differentiate between Capacitors and Capacitance.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "A capacitor is a physical device (component) that stores electrical energy, while capacitance is the property of that device (or any two conductors) that determines how much charge it can store per unit voltage."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Capacitor vs. Capacitance – What’s the Difference?</h4>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📦 Capacitor (the device)</strong><br>\\n    • A <strong>capacitor</strong> is a physical component you can buy and hold.<br>\\n    • It consists of two metal plates separated by an insulator (dielectric).<br>\\n    • Example: a cylindrical electrolytic capacitor on a circuit board.<br>\\n    • Unit: Farads (F), but usually microfarads (μF) or picofarads (pF).\\n  </div>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>⚡ Capacitance (the property)</strong><br>\\n    • <strong>Capacitance</strong> is a number that tells you how much charge a capacitor can hold per volt.<br>\\n    • Defined as \\( C = Q / V \\) where <em>Q</em> is charge, <em>V</em> is voltage.<br>\\n    • Even two wires running next to each other have some stray capacitance.<br>\\n    • Example: A 100 μF capacitor has a capacitance of 100 microfarads.\\n  </div>\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>🔍 Simple Analogy:</strong> A capacitor is like a <strong>water tank</strong> (the physical bucket). Capacitance is like the <strong>size of the tank</strong> (how many litres it can hold per metre of water height).\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> A capacitor is a physical component; capacitance is the measured property of that component.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Capacitors", "Standards and Calibration"],
+    "Question": {
+      "content": "What are the principal requirements that standard capacitors must meet? (List four)",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. High stability (capacitance does not change with time)\\n2. Low temperature coefficient (capacitance changes very little with temperature)\\n3. Low dielectric absorption (charge retained after discharge is minimal)\\n4. High insulation resistance (very low leakage current)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Requirements for a Standard Capacitor</h4>\\n  <p>A <strong>standard capacitor</strong> is used in labs to calibrate other capacitance meters. It must be extremely reliable and accurate.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📋 Four key requirements:</strong>\\n    <ol>\\n      <li><strong>High stability:</strong> Its capacitance value should not drift over months or years. No aging effects.</li>\\n      <li><strong>Low temperature coefficient (TC):</strong> If the lab temperature changes by 10 °C, the capacitance should change by less than 0.001%. Ideally TC < 10 ppm/°C.</li>\\n      <li><strong>Low dielectric absorption (soakage):</strong> After you short the capacitor, it should not “recover” any voltage. Low absorption means it behaves like a perfect capacitor.</li>\\n      <li><strong>High insulation resistance:</strong> The leakage current through the dielectric must be extremely small (megaohms to gigaohms) so that the stored charge does not leak away during measurements.</li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>🧪 Material used:</strong> Standard capacitors often use <strong>mica</strong> or <strong>fused silica</strong> as the dielectric because they have very low losses and excellent stability.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> High stability, low temperature coefficient, low dielectric absorption, high insulation resistance.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Capacitors", "Electrical Standards"],
+    "Question": {
+      "content": "Mention three types of primary standards of capacitance.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Parallel-plate air capacitor (calculable from geometry)\\n2. Cross-capacitor (Thompson‑Lampard type)\\n3. Fused-silica dielectric capacitor (high stability)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Primary Standards of Capacitance</h4>\\n  <p><strong>Primary standards</strong> are the most accurate reference capacitors. Their value can be calculated directly from physical dimensions, not by comparison with another capacitor.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🔧 Three common types:</strong>\\n    <ol>\\n      <li>\\n        <strong>Parallel‑plate air capacitor:</strong><br>\\n        Two flat, parallel metal plates in air. Capacitance \\( C = \\varepsilon_0 \\frac{A}{d} \\) where <em>A</em> is plate area, <em>d</em> is separation. Measured precisely using laser interferometers.\\n      </li>\\n      <li>\\n        <strong>Cross‑capacitor (Thompson‑Lampard):</strong><br>\\n        Uses four cylindrical rods arranged symmetrically. Its capacitance depends only on a single length measurement, making it a very fundamental standard.\\n      </li>\\n      <li>\\n        <strong>Fused‑silica (or quartz) capacitor:</strong><br>\\n        Uses a very stable dielectric (fused silica) that is almost unaffected by temperature, humidity, or time. Common in national metrology labs.\\n      </li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>🏛️ Where are they used?</strong> In national standards laboratories like NIST (USA), NPL (UK), or PTB (Germany) to maintain the Farad.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> (1) Parallel‑plate air capacitor, (2) Cross‑capacitor (Thompson‑Lampard), (3) Fused‑silica standard capacitor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Capacitors", "Secondary Standards"],
+    "Question": {
+      "content": "List four requirements of secondary standard capacitors.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. High insulation resistance (very low leakage)\\n2. Low temperature coefficient (stable over room temperature range)\\n3. Low voltage coefficient (capacitance independent of applied voltage)\\n4. Good mechanical rigidity (no vibration or pressure sensitivity)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Requirements for Secondary Standard Capacitors</h4>\\n  <p><strong>Secondary standards</strong> are used daily in calibration labs. They are compared against primary standards and then used to calibrate ordinary meters. They must be stable but not as perfect as primary standards.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📋 Four practical requirements:</strong>\\n    <ol>\\n      <li><strong>High insulation resistance:</strong> Leakage current should be negligible (e.g., > 10<sup>12</sup> Ω). Otherwise, the capacitor discharges too quickly.</li>\\n      <li><strong>Low temperature coefficient:</strong> For a lab at 23 °C ± 5 °C, the capacitance shouldn't change more than 0.01% per 10 °C.</li>\\n      <li><strong>Low voltage coefficient:</strong> The capacitance should remain the same whether you measure at 1 V or 100 V. Some dielectrics (like high‑K ceramics) fail this badly.</li>\\n      <li><strong>Good mechanical rigidity:</strong> Changes in pressure, vibration, or mounting stress should not alter capacitance. Cases are often sealed and rigid.</li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>🔁 Comparison with primary standards:</strong> Primary standards are for ultimate accuracy (0.0001% or better). Secondary standards are rugged, easier to use, and accurate to about 0.01% – 0.1%.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> (1) High insulation resistance, (2) Low temperature coefficient, (3) Low voltage coefficient, (4) Good mechanical rigidity.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Atomic Structure and Quantum Theory", "Measurement"],
+    "Question": {
+      "content": "Differentiate between Measurement and Measuring instrument.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Measurement is the process of obtaining the value of a physical quantity (e.g., length, voltage). A measuring instrument is the physical device used to perform that measurement (e.g., ruler, voltmeter)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Measurement vs. Measuring Instrument</h4>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📏 Measurement (the action/result)</strong><br>\\n    • Measurement is the <strong>process</strong> of comparing an unknown quantity with a fixed standard.<br>\\n    • Example: Finding that a table is 1.2 m long.<br>\\n    • It includes the number and the unit (e.g., 5 kg, 30 °C).\\n  </div>\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🛠️ Measuring Instrument (the tool)</strong><br>\\n    • A measuring instrument is the <strong>physical device</strong> used to carry out the measurement.<br>\\n    • Example: Tape measure, weighing scale, thermometer, multimeter.<br>\\n    • It converts the physical quantity into a readable indication (dial, digital display).\\n  </div>\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>🔍 Simple Analogy:</strong> <em>Measurement</em> is like “cooking” (the activity). <em>Measuring instrument</em> is like the “spoon or cup” (the tool you use to cook).\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Measurement is the process; measuring instrument is the device used.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Chemical Thermodynamics", "Measurement"],
+    "Question": {
+      "content": "State four (4) importance of measurement.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Ensures quality control in manufacturing.\\n2. Enables scientific research and experimentation.\\n3. Allows fair trade and commerce (e.g., weighing goods).\\n4. Helps monitor and control processes (e.g., temperature in a reactor)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Why Measurement Matters – 4 Key Reasons</h4>\\n  <p>Without measurement, we would have no numbers, no science, and no reliable products.</p>\\n  <div style='margin-bottom: 12px;'>\\n    <ol>\\n      <li><strong>Quality control:</strong> Factories measure dimensions, weight, voltage to ensure every product works the same. Example: A 10 kΩ resistor must actually be close to 10 kΩ.</li>\\n      <li><strong>Scientific research:</strong> Experiments require precise measurement to discover laws of nature. Example: measuring the speed of light.</li>\\n      <li><strong>Fair trade & economy:</strong> When you buy 1 kg of rice, a calibrated scale guarantees you get what you pay for.</li>\\n      <li><strong>Process monitoring & safety:</strong> In a power plant, measuring temperature and pressure prevents explosions. In a hospital, measuring heart rate saves lives.</li>\\n    </ol>\\n  </div>\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>💡 Extra example:</strong> Your smartphone measures battery voltage, signal strength, and orientation – all to make it work correctly.\\n  </div>\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Quality control, scientific research, fair trade, process monitoring/safety.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Gaseous State", "Circuit Theory"],
+    "Question": {
+      "content": "With formulas, differentiate between Resistors and Capacitors in Series and Parallel.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Resistors in series: \\( R_{total} = R_1 + R_2 + \\dots \\); in parallel: \\( \\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots \\). Capacitors in series: \\( \\frac{1}{C_{total}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots \\); in parallel: \\( C_{total} = C_1 + C_2 + \\dots \\)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Resistor vs. Capacitor – Series & Parallel Formulas</h4>\\n  <p>Notice that the formulas are <strong>opposite</strong> for resistors and capacitors. This is because resistors oppose current, while capacitors store charge.</p>\\n  \\n  <div style='margin-bottom: 15px;'>\\n    <strong style='color: var(--strongColor);'>🔌 Resistors</strong>\\n    <div style='margin-left: 15px;'>\\n      <strong>Series:</strong> \\( R_{total} = R_1 + R_2 + R_3 + \\dots \\)<br>\\n      <em>Example:</em> Two 10 Ω resistors in series = 20 Ω.\\n    </div>\\n    <div style='margin-left: 15px;'>\\n      <strong>Parallel:</strong> \\( \\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} + \\dots \\)<br>\\n      <em>Example:</em> Two 10 Ω resistors in parallel = 5 Ω.\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 15px;'>\\n    <strong style='color: var(--strongColor);'>⚡ Capacitors</strong>\\n    <div style='margin-left: 15px;'>\\n      <strong>Series:</strong> \\( \\frac{1}{C_{total}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\dots \\)<br>\\n      <em>Example:</em> Two 10 μF capacitors in series = 5 μF.\\n    </div>\\n    <div style='margin-left: 15px;'>\\n      <strong>Parallel:</strong> \\( C_{total} = C_1 + C_2 + C_3 + \\dots \\)<br>\\n      <em>Example:</em> Two 10 μF capacitors in parallel = 20 μF.\\n    </div>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>🧠 Memory trick:</strong> Resistors <strong>add</strong> in series; capacitors <strong>add</strong> in parallel. The opposite case uses the reciprocal formula.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> See formulas above. Resistors: series sum, parallel reciprocal. Capacitors: series reciprocal, parallel sum.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Chemical Bonding", "Active Components"],
+    "Question": {
+      "content": "What is the main function of an Active Device? Give an example (e.g., transistor).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "The main function of an active device is to amplify electrical signals or control current flow using an external power source. Example: a transistor can amplify a small input signal to produce a larger output signal."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Active Devices – Function and Example</h4>\\n  <p><strong>Active devices</strong> need external power (a battery or supply) to work. They can <strong>amplify</strong> (increase) signals or act as switches.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🔋 Main functions:</strong>\\n    <ul>\\n      <li><strong>Amplification:</strong> Take a weak signal (e.g., from a microphone) and make it stronger (e.g., to drive a speaker).</li>\\n      <li><strong>Switching:</strong> Turn a circuit on or off very quickly (e.g., in computer processors).</li>\\n      <li><strong>Oscillation:</strong> Generate repeating signals (e.g., in radio transmitters).</li>\\n    </ul>\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🔧 Example – Transistor:</strong><br>\\n    A bipolar junction transistor (BJT) has three terminals: base, collector, emitter. A tiny current into the base controls a much larger current from collector to emitter. This is amplification.\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>📟 Other active devices:</strong> Diodes (when used in special ways), operational amplifiers (op‑amps), integrated circuits, thyristors.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Active devices amplify or control signals using external power. Example: transistor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Periodic Table"],
+    "Question": {
+      "content": "In Resistor:\\n(a) The Multiplier helps us to ______\\n(b) The Colour of the band determines ______\\n(c) Tolerance is called ______\\n(d) The Two colours that represent tolerance are i. ______ ii. ______",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "(a) multiply the significant digits to get the resistance value\\n(b) the digit or significant figure (first and second bands for 4-band resistor)\\n(c) the percentage variation allowed from the marked value\\n(d) i. Gold ( ±5% ), ii. Silver ( ±10% )"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Resistor Color Code – Parts of the Band</h4>\\n  <p>A 4‑band resistor uses colored bands to tell you the resistance value and tolerance.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>🎨 Band meanings:</strong>\\n    <ul>\\n      <li><strong>Band 1 & 2:</strong> Significant digits (first two numbers).</li>\\n      <li><strong>Band 3 (Multiplier):</strong> Tells you how many zeros to add (or multiply by 10<sup>n</sup>).</li>\\n      <li><strong>Band 4 (Tolerance):</strong> How accurate the resistor is (allowed % error).</li>\\n    </ul>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>📝 Blank Answers Explained:</strong><br>\\n    (a) Multiplier → <strong>multiply the significant digits</strong>. Example: digits 47, multiplier orange (×1000) → 47,000 Ω.<br>\\n    (b) Colour of the band → determines the <strong>digit</strong> (e.g., black=0, brown=1, red=2, etc.).<br>\\n    (c) Tolerance → called <strong>the percentage variation</strong> from the marked value.<br>\\n    (d) Tolerance colors: <strong>Gold = ±5%</strong>, <strong>Silver = ±10%</strong>. No color = ±20%.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> (a) multiply the significant digits; (b) the digit; (c) percentage variation; (d) Gold and Silver.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Chemical Thermodynamics"],
+    "Question": {
+      "content": "Mention factors that guide the choice of a measuring instrument.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Range (minimum and maximum values it can measure)\\n2. Accuracy and precision required\\n3. Resolution (smallest change it can detect)\\n4. Cost and availability\\n5. Environmental conditions (temperature, humidity, vibration)\\n6. Response time (how fast it reacts)\\n7. Ease of use and portability"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>Choosing the Right Measuring Instrument – Key Factors</h4>\\n  <p>Engineers and technicians don't pick an instrument randomly. They consider several practical factors.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>📋 Important factors:</strong>\\n    <ol>\\n      <li><strong>Range:</strong> Must cover the expected measurement values. Don't use a 0‑10 V meter to measure 200 V.</li>\\n      <li><strong>Accuracy & Precision:</strong> How close to the true value? Some jobs need ±0.1%, others only ±5%.</li>\\n      <li><strong>Resolution:</strong> The smallest detectable change. A digital meter showing 0.001 V has better resolution than one showing 0.1 V.</li>\\n      <li><strong>Cost:</strong> High‑accuracy lab instruments are expensive. For a classroom, cheaper ones are fine.</li>\\n      <li><strong>Environment:</strong> Humidity, temperature, dust, vibration can affect readings. Choose a rugged instrument for factory use.</li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--infoBg); color: var(--infoCl); padding: 10px; border-radius: 6px;'>\\n    <strong>💡 Quick tip:</strong> Always check the <em>specification sheet</em> before buying a multimeter, thermometer, or pressure gauge.\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Range, accuracy, resolution, cost, environmental conditions, response time, ease of use.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Chemical Thermodynamics"],
+    "Question": {
+      "content": "For measurement to be accurately done, mention five (5) things to be considered.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "1. Proper calibration of the instrument\\n2. Avoiding parallax error (reading from correct angle)\\n3. Controlling environmental conditions (temperature, humidity)\\n4. Using the correct range and resolution\\n5. Repeating measurements and taking average\\n6. Zero adjustment before use\\n7. Ensuring clean and proper connections"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0; margin-bottom: 15px;'>How to Get Accurate Measurements – 5 Important Tips</h4>\\n  <p>Accurate results don't happen by accident. You must follow good practices.</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong style='color: var(--strongColor);'>✅ Five essential considerations:</strong>\\n    <ol>\\n      <li><strong>Calibrate the instrument:</strong> Compare it with a known standard regularly. A scale that reads 1 kg when it's really 1.05 kg is useless.</li>\\n      <li><strong>Avoid parallax error:</strong> For analog meters, read with your eye directly above the pointer, not from the side.</li>\\n      <li><strong>Control environment:</strong> Temperature changes can expand/contract materials and affect electronic components. Use the instrument within its rated conditions.</li>\\n      <li><strong>Correct range & resolution:</strong> If you measure 1.5 V on a 0‑1000 V scale, the reading will be inaccurate. Choose a meter with a range just above your expected value.</li>\\n      <li><strong>Repeat and average:</strong> Take at least three readings, then calculate the average to reduce random errors.</li>\\n    </ol>\\n  </div>\\n\\n  <div style='margin-bottom: 12px; background: var(--preset-bg-color); padding: 10px; border-radius: 5px;'>\\n    <strong>🔧 Extra tip:</strong> Always check the zero setting before each use (zero‑adjust on analog meters, or 'relative' mode on digital meters).\\n  </div>\\n\\n  <div style='background: var(--cAnsBg); color: var(--cAns); padding: 12px; border-radius: 6px; border-left: 4px solid var(--cAns); margin-top: 15px;'>\\n    <strong>✓ Final Answer:</strong> Calibration, avoid parallax, control environment, correct range, repeat measurements.\\n  </div>\\n</div>"
+    }
+  },
+
+ {
+  "type": "heading",
+  "heading": "Section B"
+ },
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Electronic Symbols and Diagrams"],
+    "Question": {
+      "content": "1) Show/Draw the symbols of the following electrical accessories: (a) Cell (b) Battery (c) DC supply (d) AC supply (e) Fuse (f) Transformer (g) Lamp (lighting) (h) Resistor (i) Variable resistor (rheostat) (j) Variable resistor (potentiometer) (k) Galvanometer (l) Capacitor (m) Switch (n) Voltmeter (o) Ammeter.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "See explanations for each symbol. Written descriptions and ASCII approximations are given in the detailed explanation."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor); margin-top: 0;'>Electrical Accessories Symbols</h4>\\n  <p>For newbies – each symbol follows international standards (IEC). Draw them neatly with connecting wires.</p>\\n  <ul>\\n    <li><strong>Cell:</strong> One long thin line (positive) and one short thick line (negative). <br/> <code>──|∣──</code> (long line +, short line -)</li>\\n    <li><strong>Battery:</strong> Two or more cell symbols joined. <br/> <code>──|∣──|∣──</code></li>\\n    <li><strong>DC supply:</strong> A circle with a long line (+) and short line (-) inside, or a battery symbol labeled “DC”. Often shown as a circle with plus and minus signs.</li>\\n    <li><strong>AC supply:</strong> A circle with a sine wave (∼) inside. <br/> <code>⨀ ∼</code></li>\\n    <li><strong>Fuse:</strong> A rectangle with a line through it, or a broken line with a curved link. <br/> <code>──□/ ──</code></li>\\n    <li><strong>Transformer:</strong> Two or more coils (curves or loops) facing each other, sometimes with a core line. <br/> <code>∏∏  ∏∏</code></li>\\n    <li><strong>Lamp (lighting):</strong> A circle with an X inside, or a semicircle loop. <br/> <code>──(×)──</code></li>\\n    <li><strong>Resistor:</strong> A zigzag line (USA) or a rectangle (IEC). <br/> <code>──/\\/\\/\\──</code></li>\\n    <li><strong>Variable resistor (rheostat):</strong> Resistor symbol with an arrow crossing it diagonally. <br/> <code>──/\\/\\/\\↗──</code></li>\\n    <li><strong>Variable resistor (potentiometer):</strong> Resistor symbol with a third terminal (arrow) touching the resistive path. <br/> <code>──/\\/\\/\\── with arrow to middle</code></li>\\n    <li><strong>Galvanometer:</strong> A circle with a ‘G’ inside. <br/> <code>──(G)──</code></li>\\n    <li><strong>Capacitor:</strong> Two parallel plates – two straight lines (equal length) facing each other. <br/> <code>──| |──</code></li>\\n    <li><strong>Switch (SPST):</strong> A break in the wire with a small circle or angled movable contact. <br/> <code>──o/ ──</code> (open) or <code>──o──</code> (closed).</li>\\n    <li><strong>Voltmeter:</strong> A circle with ‘V’ inside. <br/> <code>──(V)──</code></li>\\n    <li><strong>Ammeter:</strong> A circle with ‘A’ inside. <br/> <code>──(A)──</code></li>\\n  </ul>\\n  <p><strong>Tip:</strong> Always keep the connecting lines straight and label each component when drawing. Practice each symbol on paper.</p>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Resistance and Ohm's Law"],
+    "Question": {
+      "content": "2a) Define Resistance and list out the factors that determine the resistivity of material. 2b) State the inverse of Resistance and Resistivity. 2c) Give the formula for Resistance in Series and in Parallel for R₁, R₂, R₃. 2d) What happens to current and voltages in Series and Parallel connection? 2e) List the four (4) methods used to determine the resistance of a material.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "2a) Resistance opposes current; factors: material, length, cross-section area, temperature. 2b) Conductance (G = 1/R) and Conductivity (σ = 1/ρ). 2c) Series: Rₛ = R₁+R₂+R₃; Parallel: 1/Rₚ = 1/R₁ + 1/R₂ + 1/R₃. 2d) Series: same current, voltage divides; Parallel: same voltage, current divides. 2e) Ohmmeter, voltmeter-ammeter method, Wheatstone bridge, color code / digital multimeter."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Resistance & Resistivity – Simple Guide</h4>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong>2a) Resistance</strong> is the opposition to electric current (unit: Ohm, Ω).<br/>\\n    Resistivity (ρ) depends on:\\n    <ul>\\n      <li>Material (copper low, nichrome high)</li>\\n      <li>Length (longer → higher resistance)</li>\\n      <li>Cross-sectional area (thicker wire → lower resistance)</li>\\n      <li>Temperature (usually increases with heat for metals)</li>\\n    </ul>\\n    Formula: \\( R = ρ \\frac{L}{A} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong>2b) Inverse of Resistance</strong> = Conductance \\( G = \\frac{1}{R} \\) (unit Siemens).<br/>\\n    <strong>Inverse of Resistivity</strong> = Conductivity \\( σ = \\frac{1}{ρ} \\) (unit S/m).\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong>2c) Series & Parallel formulas</strong><br/>\\n    Series: \\( R_{\\text{total}} = R_1 + R_2 + R_3 \\)<br/>\\n    Parallel: \\( \\frac{1}{R_{\\text{total}}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} \\)\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong>2d) Effects on current & voltage</strong><br/>\\n    <strong>Series:</strong> Current is the same everywhere. Voltage splits (drops) across each resistor.<br/>\\n    <strong>Parallel:</strong> Voltage is the same across each branch. Current splits among branches.\\n  </div>\\n\\n  <div style='margin-bottom: 12px;'>\\n    <strong>2e) Four methods to measure resistance</strong><br/>\\n    <ol>\\n      <li>Direct ohmmeter (digital multimeter)</li>\\n      <li>Ammeter-Voltmeter method (measure V & I, compute R = V/I)</li>\\n      <li>Wheatstone bridge (high precision)</li>\\n      <li>Resistor color code calculation (for fixed resistors)</li>\\n    </ol>\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Electronic Components"],
+    "Question": {
+      "content": "3) Classify the following components as passive or active, indicating their uses and unit where necessary: (a) Capacitor (b) Switches (c) Diode (d) Resistor (e) Inductor (f) Voltmeter (g) Transistor (h) Ammeter (i) Transformer (j) LDR (Light Dependent Resistor).",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Passive: Capacitor, Switches, Resistor, Inductor, Voltmeter*, Ammeter*, Transformer, LDR. Active: Diode, Transistor. *Meters are passive because they draw energy from circuit. Uses and units given in explanation."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Active vs Passive Components</h4>\\n  <p><strong>Active:</strong> can amplify or control signals (needs power). <strong>Passive:</strong> cannot amplify, only store or dissipate energy.</p>\\n  <table style='width:100%; border-collapse: collapse; background: var(--preset-bg-color);'>\\n    <tr style='background: var(--strongColor); color: white;'><th>Component</th><th>Passive/Active</th><th>Use(s)</th><th>Unit</th></tr>\\n    <tr><td>Capacitor</td><td>Passive</td><td>Stores charge, filters noise</td><td>Farad (F)</td></tr>\\n    <tr><td>Switches</td><td>Passive</td><td>Open/close circuit</td><td>(none)</td></tr>\\n    <tr><td>Diode</td><td>Active</td><td>Lets current flow one way, rectification</td><td>(none, but voltage drop in V)</td></tr>\\n    <tr><td>Resistor</td><td>Passive</td><td>Limits current, divides voltage</td><td>Ohm (Ω)</td></tr>\\n    <tr><td>Inductor</td><td>Passive</td><td>Stores energy in magnetic field, filters</td><td>Henry (H)</td></tr>\\n    <tr><td>Voltmeter</td><td>Passive*</td><td>Measures voltage</td><td>Volt (V) – measured quantity</td></tr>\\n    <tr><td>Transistor</td><td>Active</td><td>Amplifies or switches signals</td><td>Gain (unitless)</td></tr>\\n    <tr><td>Ammeter</td><td>Passive*</td><td>Measures current</td><td>Ampere (A)</td></tr>\\n    <tr><td>Transformer</td><td>Passive</td><td>Changes AC voltage level</td><td>Turns ratio</td></tr>\\n    <tr><td>LDR</td><td>Passive</td><td>Light sensor – resistance changes with light</td><td>Ohm (Ω)</td></tr>\\n  </table>\\n  <p>*Meters are passive because they do not generate energy; they use a small amount from the circuit.</p>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Circuit Diagrams"],
+    "Question": {
+      "content": "4) Label A, B, & C on the diagram. The above diagram is __________. (Note: The diagram is missing in the text version – a typical electrical circuit or component diagram was intended.)",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Without the actual diagram, exact labels cannot be given. However, common labels: A = Power source (battery), B = Load (e.g., resistor), C = Switch or Measuring point. The diagram is likely a simple series circuit or a transistor configuration. Revisit the original figure."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>How to Label Electrical Diagrams</h4>\\n  <p>Since the diagram is missing in the description, follow these rules when you see an exam diagram:</p>\\n  <ul>\\n    <li>Look for standard symbols (cell, resistor, lamp, meter, etc.) – match them to names.</li>\\n    <li>Points A, B, C usually refer to nodes, component terminals, or test points.</li>\\n    <li>Often a diagram might show a series circuit: A = battery positive, B = resistor end, C = return path.</li>\\n    <li>If a transistor is shown, A = Emitter, B = Base, C = Collector.</li>\\n    <li>For a transformer: A = primary, B = secondary, C = core/center tap.</li>\\n  </ul>\\n  <p><strong>Fill the blank:</strong> “The above diagram is <em>a circuit schematic / a resistor network / an electrical wiring diagram</em>” – choose based on components actually drawn.</p>\\n  <p>💡 <strong>Tip for newbies:</strong> Always check the unique features: power supply symbol, ground symbols, and any arrows (variable components). Label accordingly. If no diagram is given in your question paper, inform your teacher.</p>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Resistor Colour Coding"],
+    "Question": {
+      "content": "In five band resistor. The black colour first 2nd & 3rd digit are 0, brown colours first to third digits are 1, red and orange are 2 and 3 respectively from first to third digit what are their multiplier?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Black multiplier = 1 (10^0); Brown multiplier = 10 (10^1); Red multiplier = 100 (10^2); Orange multiplier = 1000 (10^3)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Five-Band Resistor Colour Code</h4>\\n  <p>For a 5‑band resistor:<br/>\\n  <strong>Band 1,2,3</strong> = digits<br/>\\n  <strong>Band 4</strong> = multiplier (power of 10)<br/>\\n  <strong>Band 5</strong> = tolerance</p>\\n  <p>The question gives colours for the first three digits, but asks for the <strong>multiplier</strong> of each colour. In resistor code, the multiplier for any colour is the same regardless of being a digit or multiplier band.</p>\\n  <ul>\\n    <li><strong>Black</strong> as multiplier → \\(10^0 = 1\\)</li>\\n    <li><strong>Brown</strong> → \\(10^1 = 10\\)</li>\\n    <li><strong>Red</strong> → \\(10^2 = 100\\)</li>\\n    <li><strong>Orange</strong> → \\(10^3 = 1000\\)</li>\\n  </ul>\\n  <p><strong>Example:</strong> If a 5‑band resistor has bands Brown, Black, Black, Red, Gold → digits 1,0,0, multiplier 100 → \\(100 \\times 100 = 10,000\\;\\Omega\\), tolerance ±5%.</p>\\n  <div style='background: var(--preset-bg-color); padding: 8px; border-radius: 6px;'>\\n    ✅ <strong>Final answer:</strong> Black=1, Brown=10, Red=100, Orange=1000.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Resistor Construction"],
+    "Question": {
+      "content": "Name Five (5) types of Resistor made of construction & explain two.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Five types: Carbon composition, Carbon film, Metal film, Wirewound, Surface mount (SMD). Explained: Carbon composition and Wirewound."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Resistor Types by Construction</h4>\\n  <p><strong>Five common types:</strong></p>\\n  <ol>\\n    <li><strong>Carbon composition</strong> – mixture of carbon powder and binder.</li>\\n    <li><strong>Carbon film</strong> – thin carbon layer on ceramic rod.</li>\\n    <li><strong>Metal film</strong> – metal alloy deposited on ceramic.</li>\\n    <li><strong>Wirewound</strong> – resistance wire wound around a ceramic core.</li>\\n    <li><strong>Surface mount (SMD)</strong> – tiny rectangular block for PCB mounting.</li>\\n  </ol>\\n  <p><strong>Explanation of two:</strong></p>\\n  <ul>\\n    <li><strong>Carbon composition:</strong> Made by compressing carbon granules with a resin. Inexpensive but has high noise and poor tolerance (±5% to ±20%). Used in older electronics.</li>\\n    <li><strong>Wirewound:</strong> A nichrome or similar wire is wound on a ceramic former. Can handle high power (up to hundreds of watts) and has very low noise. Common in power supplies and amplifiers. Tolerance as low as ±1%.</li>\\n  </ul>\\n  <p>Other types like metal film offer high precision and low temperature coefficient.</p>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Measurement and Errors"],
+    "Question": {
+      "content": "7a) Define the terms Error and Absolute Error. 7b) A length was measured to be 10.6ft but the given length was 10.4ft. Calculate: i) The absolute error ii) The percentage error. 7c) List the three types of Error and State where those errors are committed.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "a) Error = difference between measured and true value. Absolute error = |measured − true|. b) i) 0.2 ft, ii) 1.923%. c) Gross error (human mistake), Systematic error (instrument/ method flaw), Random error (unpredictable fluctuations)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Errors in Measurement</h4>\\n  <div style='margin-bottom: 15px;'>\\n    <strong>7a) Definitions</strong><br/>\\n    <strong>Error</strong> = Measured value – True value (can be positive or negative).<br/>\\n    <strong>Absolute error</strong> = |Measured – True| (always positive, ignores direction).\\n  </div>\\n  <div style='margin-bottom: 15px;'>\\n    <strong>7b) Calculation</strong><br/>\\n    Measured = 10.6 ft, True = 10.4 ft<br/>\\n    i) Absolute error = \\(|10.6 - 10.4| = 0.2\\) ft<br/>\\n    ii) Percentage error = \\(\\frac{\\text{Absolute error}}{\\text{True value}} \\times 100\\%\\)<br/>\\n    \\( = \\frac{0.2}{10.4} \\times 100\\% = 1.923\\%\\) (approx.)\\n  </div>\\n  <div>\\n    <strong>7c) Three types of error</strong>\\n    <ul>\\n      <li><strong>Gross error:</strong> Human mistakes (wrong reading, poor parallax). Committed by the observer.</li>\\n      <li><strong>Systematic error:</strong> Instrument calibration error, environmental conditions. Committed by the instrument or method.</li>\\n      <li><strong>Random error:</strong> Unpredictable variations (noise, friction). Committed due to chance.</li>\\n    </ul>\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Semiconductor Symbols"],
+    "Question": {
+      "content": "Write the symbol of the following: a) A BJT, b) Light Emitting Diode, c) LDR, d) Zener diode, e) A diode.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Symbols described in explanation using ASCII and text."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Electronic Component Symbols</h4>\\n  <p>Draw neatly in your answer sheet. Below are standard shapes:</p>\\n  <ul>\\n    <li><strong>BJT (Bipolar Junction Transistor):</strong> NPN: Arrow on emitter pointing out. PNP: arrow pointing in.<br/>\\n    <code>   C          C\\n     |          |\\n   B|/         B\\|\\n     |\\         |/\\n     |          |\\n     E          E\\n   NPN        PNP</code>\\n    </li>\\n    <li><strong>Light Emitting Diode (LED):</strong> Diode symbol with two arrows pointing away (light).<br/>\\n    <code>  ──▶│──  (triangle touching a line) plus two outward arrows ↑↑</code>\\n    </li>\\n    <li><strong>LDR (Light Dependent Resistor):</strong> Resistor symbol inside a circle with two arrows pointing toward it, or rectangle with arrows.<br/>\\n    <code>  ──/\\/\\/\\──  with arrows →↓ hitting it</code>\\n    </li>\\n    <li><strong>Zener diode:</strong> Diode symbol with a bent or ‘Z’ shaped line on the cathode side.<br/>\\n    <code>  ──▶│──  (cathode line has a ‘Z’ shape)</code>\\n    </li>\\n    <li><strong>A diode (general):</strong> Triangle pointing to a vertical line. Anode (triangle) → Cathode (line).<br/>\\n    <code>  ──▶│──</code>\\n    </li>\\n  </ul>\\n  <p>Remember: Arrow shows direction of conventional current (from positive to negative).</p>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "9a) If three 10 µF capacitors are connected in parallel, the net capacitance is. 9b) If three 15 µF capacitors are connected in series, the net capacitance is. 9c) A 10 µF, 20 µF, 22 µF, and 100 µF capacitor are connected in parallel. The total capacitance is. 9d) A 2 µF, 5 µF and 10 µF capacitors are connected in series, the total capacitance is.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "a) 30 µF, b) 5 µF, c) 152 µF, d) 1.25 µF"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Capacitor Combinations</h4>\\n  <p><strong>Parallel:</strong> Total capacitance \\( C_{\\text{total}} = C_1 + C_2 + C_3 + \\dots \\)<br/>\\n  <strong>Series:</strong> \\( \\frac{1}{C_{\\text{total}}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\dots \\)</p>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong>9a) Three 10 µF in parallel</strong><br/>\\n    \\( C = 10 + 10 + 10 = 30 \\mu F \\)\\n  </div>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong>9b) Three 15 µF in series</strong><br/>\\n    \\( \\frac{1}{C} = \\frac{1}{15} + \\frac{1}{15} + \\frac{1}{15} = \\frac{3}{15} = \\frac{1}{5} \\)<br/>\\n    \\( C = 5 \\mu F \\)\\n  </div>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong>9c) Parallel combination 10, 20, 22, 100 µF</strong><br/>\\n    \\( C = 10 + 20 + 22 + 100 = 152 \\mu F \\)\\n  </div>\\n  \\n  <div style='margin-bottom: 12px;'>\\n    <strong>9d) Series combination 2, 5, 10 µF</strong><br/>\\n    \\( \\frac{1}{C} = \\frac{1}{2} + \\frac{1}{5} + \\frac{1}{10} \\)<br/>\\n    \\( = 0.5 + 0.2 + 0.1 = 0.8 \\)<br/>\\n    \\( C = \\frac{1}{0.8} = 1.25 \\mu F \\)\\n  </div>\\n  \\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ Final answers: a) 30 µF, b) 5 µF, c) 152 µF, d) 1.25 µF.\\n  </div>\\n</div>"
+    }
+  },
+
+  {
+  "type": "heading",
+  "heading": "Section C"
+  },
+
+  {
+    "type": "Question",
+    "name": "Question 1",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "Each resistor has two main characteristics:",
+      "type": "OBJ",
+      "options": [
+        "Its resistance value in ohms and its power dissipating capacity in watts",
+        "Gold and Silver Colour",
+        "In bands and colours"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Its resistance value in ohms and its power dissipating capacity in watts"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Resistor Characteristics</h4>\\n  <p>Every resistor has two basic specifications:</p>\\n  <ul>\\n    <li><strong>Resistance value</strong> (in ohms, Ω) – how much it opposes current.</li>\\n    <li><strong>Power rating</strong> (in watts, W) – how much heat it can safely dissipate without burning.</li>\\n  </ul>\\n  <p>Colour bands are just a way to <em>mark</em> the resistance value and tolerance, not a separate characteristic. Gold and silver indicate tolerance, not main characteristics.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Its resistance value in ohms and its power dissipating capacity in watts.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 2",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "For measurement to be accurately done, which of the following must be considered?",
+      "type": "OBJ",
+      "options": [
+        "It must have a unit",
+        "There must be a numerical value",
+        "The instrument must be accurate",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Requirements for Accurate Measurement</h4>\\n  <p>For any measurement to be meaningful and accurate, you need:</p>\\n  <ul>\\n    <li><strong>A numerical value</strong> (like 5, 10.2, 0.003)</li>\\n    <li><strong>A unit</strong> (meter, second, volt, etc.) – without a unit, the number is useless.</li>\\n    <li><strong>An accurate instrument</strong> – if the ruler or multimeter is faulty, the result will be wrong.</li>\\n  </ul>\\n  <p>All three are essential. Missing any one means the measurement is incomplete or unreliable.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> All of the above.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 3",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "One reason why we measure is to:",
+      "type": "OBJ",
+      "options": [
+        "Evaluate the performance of the operator",
+        "Study and evaluate the system",
+        "To increase our knowledge and understanding of the world around us",
+        "For quantity monitoring"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To increase our knowledge and understanding of the world around us"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Why Do We Measure?</h4>\\n  <p>Measurement is the foundation of science and engineering. The main reasons include:</p>\\n  <ul>\\n    <li>Understanding nature (e.g., measuring speed of light, temperature of a star)</li>\\n    <li>Checking system performance (e.g., testing a car engine)</li>\\n    <li>Monitoring quantity (e.g., power consumption)</li>\\n    <li>Evaluating operators (e.g., timing a worker)</li>\\n  </ul>\\n  <p>Among these, the most fundamental reason is <strong>to increase our knowledge and understanding</strong> – measurement turns observations into numbers we can analyse.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> To increase our knowledge and understanding of the world around us.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 4",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "Using the same to measure time is an example of ______ method of measurement, while the measurement method expressed as numerical value and unit is ______ method of measurement.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "First blank: direct (or comparison). Second blank: absolute (or fundamental)."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Methods of Measurement</h4>\\n  <p><strong>First blank:</strong> “Using the same to measure time” likely means using a clock or a sundial – you compare the unknown time interval with a standard (e.g., the Sun’s position). This is called <strong>direct measurement</strong> (or comparison method).<br/>\\n  <strong>Second blank:</strong> Any measurement that gives a numerical value <strong>and</strong> a unit (e.g., 5.6 meters) is called an <strong>absolute measurement</strong> (or fundamental measurement) because it expresses the quantity in a standard unit.</p>\\n  <p>Examples:</p>\\n  <ul>\\n    <li>Using a ruler to measure length → direct + absolute.</li>\\n    <li>Using a stopwatch to measure time → direct + absolute.</li>\\n  </ul>\\n  <p>Other methods include indirect measurement (using a formula, like speed = distance/time).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    💡 <strong>Suggested answer:</strong> direct / absolute (or comparison / fundamental). Check your textbook for exact terms.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 5",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "One reason why we measure is to:",
+      "type": "OBJ",
+      "options": [
+        "Evaluate the performance of the operator",
+        "Study and evaluate the system",
+        "To increase our knowledge and understanding of the world around us",
+        "For quantity monitoring"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "To increase our knowledge and understanding of the world around us"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Purpose of Measurement (Repeat)</h4>\\n  <p>This question is similar to Question 3. Measurement helps us understand, evaluate, monitor, and check performance. The broadest and deepest reason is <strong>gaining knowledge</strong> – science advances by measuring.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> To increase our knowledge and understanding of the world around us.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 6",
+    "topic": ["Resistors and Measurement Basics"],
+    "Question": {
+      "content": "No measurement is free from errors (True or False).",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "True"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Errors in Measurement</h4>\\n  <p>Every measurement has some error, no matter how precise the instrument. Reasons include:</p>\\n  <ul>\\n    <li>Limited resolution of the tool (e.g., a ruler only shows mm)</li>\\n    <li>Human parallax or reaction time</li>\\n    <li>Environmental changes (temperature, vibration)</li>\\n    <li>Instrument calibration limits</li>\\n  </ul>\\n  <p>Even the most accurate atomic clocks have tiny errors. We can reduce errors but never eliminate them completely.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> True.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 7",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Which of the following is not a type of Error?",
+      "type": "OBJ",
+      "options": [
+        "Type I & Type II",
+        "Gross Error",
+        "Systematic Error",
+        "Random Error"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Type I & Type II"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of Errors in Measurement</h4>\\n  <p>In measurement and instrumentation, errors are usually classified into three main types:</p>\\n  <ul>\\n    <li><strong>Gross Error</strong> – human mistakes (wrong reading, poor parallax).</li>\\n    <li><strong>Systematic Error</strong> – instrument calibration or environmental issues.</li>\\n    <li><strong>Random Error</strong> – unpredictable fluctuations.</li>\\n  </ul>\\n  <p><strong>Type I and Type II errors</strong> come from hypothesis testing in statistics (false positive / false negative), not from measurement errors in engineering. Therefore, they are <strong>not</strong> considered a type of error in this context.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Type I & Type II.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 8",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "The colour bands used by RCC to identify in resistor:",
+      "type": "OBJ",
+      "options": [
+        "Resistance value",
+        "Percentage of tolerance",
+        "All of the above",
+        "Their values are made"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Resistor Colour Code</h4>\\n  <p>On a resistor, coloured bands are used to indicate:</p>\\n  <ul>\\n    <li><strong>Resistance value</strong> (first two or three bands give digits, next band gives multiplier).</li>\\n    <li><strong>Tolerance</strong> (last band – gold = ±5%, silver = ±10%).</li>\\n  </ul>\\n  <p>So the colour bands provide both the resistance value <strong>and</strong> the tolerance percentage. Therefore, the correct answer is <strong>All of the above</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> All of the above.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 9",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "When is colour used in the specification of resistor?",
+      "type": "OBJ",
+      "options": [
+        "The resistor body is very big",
+        "When the resistor is smaller",
+        "When the resistor is specially made",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "When the resistor is smaller"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Why Colour Bands on Resistors?</h4>\\n  <p>Resistors are very small components. Printing numbers directly on them would be difficult to read and would wear off easily. Colour bands are used <strong>when the resistor is small</strong> because they are easy to print, take little space, and can be read from any angle.</p>\\n  <p>Large power resistors sometimes have numbers printed, but the common carbon film and metal film resistors (small size) always use colour codes.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> When the resistor is smaller.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 10",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "Which of the following is not a factor that governs the choice of instrument?",
+      "type": "OBJ",
+      "options": [
+        "Proportion",
+        "Accuracy",
+        "Reproduction",
+        "Uncertainty"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Proportion"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Factors for Choosing a Measuring Instrument</h4>\\n  <p>When selecting an instrument for a measurement, key factors include:</p>\\n  <ul>\\n    <li><strong>Accuracy</strong> – how close the reading is to the true value.</li>\\n    <li><strong>Reproduction (Repeatability)</strong> – getting the same reading under same conditions.</li>\\n    <li><strong>Uncertainty</strong> – the doubt about the measurement result.</li>\\n  </ul>\\n  <p><strong>Proportion</strong> (ratio or scale) is not a standard governing factor. It might refer to proportionality of scale, but it is not listed as a main selection criterion. Hence, it is the odd one out.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Proportion.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 11",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Which one is a polarized capacitor?",
+      "type": "OBJ",
+      "options": [
+        "Electrolytic Capacitor",
+        "Ceramic Capacitor",
+        "Silver Capacitor",
+        "Teflon Capacitor"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrolytic Capacitor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Polarized Capacitor</h4>\\n  <p>A <strong>polarized capacitor</strong> has positive and negative terminals. It must be connected correctly in a circuit (positive to higher voltage). If reversed, it can be damaged or explode.</p>\\n  <ul>\\n    <li><strong>Electrolytic capacitor</strong> – the most common polarized type. Uses an electrolyte to get high capacitance in a small size.</li>\\n    <li>Ceramic, silver, and Teflon capacitors are non‑polarized (can be connected either way).</li>\\n  </ul>\\n  <p>Look for the plus (+) or minus (−) markings on electrolytic capacitors.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Electrolytic Capacitor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 12",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "______ is the quantity to be measured.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Measurand"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Measurand Definition</h4>\\n  <p>In measurement science, the specific quantity we want to measure is called the <strong>measurand</strong>.</p>\\n  <p>Examples:</p>\\n  <ul>\\n    <li>If you measure the length of a table, the measurand is length.</li>\\n    <li>If you measure voltage across a battery, the measurand is voltage.</li>\\n    <li>If you measure temperature of a room, the measurand is temperature.</li>\\n  </ul>\\n  <p>Other terms sometimes used: <em>input quantity</em> or <em>test variable</em>. But the standard term is <strong>measurand</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Measurand.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 13",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Which one is a non-polarized capacitor?",
+      "type": "OBJ",
+      "options": [
+        "Polystyrene Capacitor",
+        "Ceramic capacitor",
+        "Teflon Capacitor",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Non‑Polarized Capacitors</h4>\\n  <p><strong>Non‑polarized</strong> capacitors can be connected in either direction; they have no positive or negative terminals.</p>\\n  <ul>\\n    <li>Polystyrene capacitor – non‑polarized, good for high precision.</li>\\n    <li>Ceramic capacitor – very common non‑polarized type.</li>\\n    <li>Teflon capacitor – non‑polarized, stable at high temperatures.</li>\\n  </ul>\\n  <p>All three are non‑polarized. The only common polarized type is electrolytic (and some tantalum).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> All of the above.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 14",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "Why direct comparison methods of measurement are rarely used?",
+      "type": "OBJ",
+      "options": [
+        "It is rod always",
+        "Possible",
+        "Fusible",
+        "Practicable",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "It is rod always (likely misprint; intended answer: impracticable or not always possible). Based on options, none seem correct, but common knowledge: direct comparison is rarely used because it is not always practicable."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Direct Comparison Methods</h4>\\n  <p>Direct comparison means comparing the unknown quantity directly with a standard (e.g., balancing a weight against standard masses).</p>\\n  <p>Why rarely used?:</p>\\n  <ul>\\n    <li>Requires a physical standard of the same kind (often unavailable or inconvenient).</li>\\n    <li>Time‑consuming and needs careful setup.</li>\\n    <li>Often impracticable for quantities like voltage, resistance, or temperature.</li>\\n  </ul>\\n  <p>The options given seem garbled – “It is rod always” might be a miswrite of “It is not always practicable”. In many textbooks, the answer is: <strong>“Direct comparison methods are rarely used because they are not always practicable.”</strong> Among the choices, none fit well, but if forced, “Practicable” (meaning feasible) is the opposite of the reason. Most likely the intended correct choice is “All of the above” as a trick, but standard answer: <strong>Impracticable</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    📘 <strong>Note:</strong> The correct reason is that direct comparison is often <strong>impracticable</strong> or requires exact standards. Check your class notes for the exact wording.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 15",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitors are used in ______.",
+      "type": "OBJ",
+      "options": [
+        "Energy storage systems",
+        "Signal Processing devices",
+        "Filter applications",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "All of the above"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Uses of Capacitors</h4>\\n  <p>Capacitors are extremely versatile components:</p>\\n  <ul>\\n    <li><strong>Energy storage</strong> – They store electrical charge (like in camera flashes, backup power).</li>\\n    <li><strong>Signal processing</strong> – Coupling and decoupling signals in amplifiers, timers.</li>\\n    <li><strong>Filter applications</strong> – Smoothing voltage in power supplies (rectifier filters), removing noise.</li>\\n  </ul>\\n  <p>Therefore, capacitors are used in all of these applications.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> All of the above.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 16",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "In Capacitor, the energy is stored in: ",
+      "type": "OBJ",
+      "options": [
+        "Electrical Field",
+        "Electric Flux",
+        "Charge",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrical Field"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Energy Storage in a Capacitor</h4>\\n  <p>A capacitor consists of two conductors separated by an insulator. When voltage is applied, opposite charges accumulate on the plates, creating an <strong>electric field</strong> between them. The energy is stored in that electric field.</p>\\n  <p>Formula: \\( E = \\frac{1}{2} C V^2 \\)</p>\\n  <p>While charge (Q) is present, it is not the stored energy – the field is. Electric flux is related but not the storage medium.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Electrical Field.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 17",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "The degree of response of measuring device to the change in input quantity is called ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Sensitivity"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Sensitivity of a Measuring Device</h4>\\n  <p><strong>Sensitivity</strong> is how much the output (reading) changes when the input quantity changes by a small amount.</p>\\n  <p>For example:</p>\\n  <ul>\\n    <li>A sensitive voltmeter shows a large deflection for a tiny voltage change.</li>\\n    <li>A less sensitive scale may not show small weight differences.</li>\\n  </ul>\\n  <p>Mathematically: Sensitivity = \\( \\frac{\\text{Change in output}}{\\text{Change in input}} \\).</p>\\n  <p>Other related terms: resolution, precision, but the degree of response is specifically <strong>sensitivity</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Sensitivity.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 18",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "______ Error is the difference between the measured value and the true value of the physical quantity.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Absolute Error"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Absolute Error</h4>\\n  <p><strong>Absolute error</strong> is defined as the magnitude (or signed difference) between the measured value and the true value.</p>\\n  <p>Formula: \\n  \\[ \\text{Absolute Error} = |\\text{Measured Value} - \\text{True Value}| \\]\\n  (sometimes without absolute value, as signed error).</p>\\n  <p>Example: If true length is 10.4 ft and measured is 10.6 ft, absolute error = 0.2 ft.</p>\\n  <p>Do not confuse with <strong>relative error</strong> or <strong>percentage error</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Absolute Error.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 19",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "Measurement is classified into ______ & ______ methods.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Direct and Indirect methods"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Classification of Measurement Methods</h4>\\n  <p>Measurement methods are broadly classified into two types:</p>\\n  <ul>\\n    <li><strong>Direct methods</strong> – You directly compare the unknown quantity with a standard (e.g., measuring length with a ruler, weight with a balance).</li>\\n    <li><strong>Indirect methods</strong> – You measure other quantities and calculate the desired value using a formula (e.g., measuring speed by dividing distance by time, or resistance using voltmeter and ammeter readings).</li>\\n  </ul>\\n  <p>Some textbooks also mention <em>absolute</em> and <em>comparison</em> methods, but the most common classification is direct vs indirect.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Direct & Indirect methods.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 20",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "______ refers to how closely the measured value agrees with the true value of the quantity being measured.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Accuracy"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Accuracy Definition</h4>\\n  <p><strong>Accuracy</strong> tells us how close a measurement is to the true or accepted value.</p>\\n  <p>Example: If the true length is 10.0 cm and you measure 9.9 cm, you are accurate (error only 0.1 cm). If you measure 8.0 cm, you are inaccurate.</p>\\n  <p>Do not confuse with <strong>precision</strong> (how consistent repeated measurements are). You can be precise but inaccurate (e.g., always 9.8 cm – consistent but wrong).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Accuracy.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 21",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "______ is a passive electronic component that stores electric charge.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Capacitor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Capacitor</h4>\\n  <p>A <strong>capacitor</strong> is a passive component (does not amplify or generate energy) that stores electrical energy in an electric field between two conducting plates separated by an insulator (dielectric).</p>\\n  <p>When voltage is applied, opposite charges accumulate on the plates. The stored charge can be released later. Common uses: smoothing voltage, filtering signals, energy storage in camera flashes.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Capacitor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 22",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "The ability of a capacitor to store electric charge is called the ______ of a capacitor.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Capacitance"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Capacitance</h4>\\n  <p><strong>Capacitance</strong> is the measure of how much electric charge a capacitor can store per unit voltage.</p>\\n  <p>Formula: \\( C = \\frac{Q}{V} \\)</p>\\n  <p>Where:</p>\\n  <ul>\\n    <li>\\( C \\) = capacitance (Farads)</li>\\n    <li>\\( Q \\) = charge stored (Coulombs)</li>\\n    <li>\\( V \\) = voltage across the capacitor (Volts)</li>\\n  </ul>\\n  <p>A higher capacitance means more charge can be stored for the same voltage.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Capacitance.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 23",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "The deviation from the true value of the measured variable is called ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Error (or Measurement Error)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Measurement Error</h4>\\n  <p><strong>Error</strong> is the difference between the measured value and the true (or actual) value of the quantity.</p>\\n  <p>Formula: \\( \\text{Error} = \\text{Measured value} - \\text{True value} \\)</p>\\n  <p>Error can be positive (measurement too high) or negative (too low). The absolute value gives the magnitude. Every measurement has some error – no measurement is perfect.</p>\\n  <p>The question says “deviation from the true value” – that is exactly the definition of error.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Error.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 24",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitance is measured in ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Farads (F)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Unit of Capacitance</h4>\\n  <p>The SI unit of capacitance is the <strong>farad</strong> (symbol F). Named after Michael Faraday.</p>\\n  <p>One farad is a very large unit. Practical capacitors are usually measured in:</p>\\n  <ul>\\n    <li>Microfarads (µF) = \\(10^{-6}\\) F</li>\\n    <li>Nanofarads (nF) = \\(10^{-9}\\) F</li>\\n    <li>Picofarads (pF) = \\(10^{-12}\\) F</li>\\n  </ul>\\n  <p>Example: A typical ceramic capacitor might be 100 nF, an electrolytic capacitor 1000 µF.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Farads (F).\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 25",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitors consist of two metallic plates separated by ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "an insulator (dielectric)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Construction of a Capacitor</h4>\\n  <p>A basic capacitor has two metal plates (conductors) facing each other, with a <strong>non‑conducting material</strong> between them. This material is called a <strong>dielectric</strong> or simply an <strong>insulator</strong>.</p>\\n  <p>Common dielectrics: air, paper, ceramic, plastic film, electrolyte (in electrolytic capacitors). The dielectric prevents direct current from flowing between the plates while allowing an electric field to build up, storing energy.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> an insulator (dielectric).\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 26",
+    "topic": ["Measurement and Instrumentation"],
+    "Question": {
+      "content": "Improper setting of the instrument leads to ______ error.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Systematic error"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Systematic Error from Improper Setting</h4>\\n  <p><strong>Systematic errors</strong> are consistent, repeatable errors caused by faulty instrument calibration, incorrect zero setting, or improper use. They shift all measurements in one direction.</p>\\n  <p>Examples: a voltmeter not zeroed, a ruler with worn end, or improper range selection. These errors can be reduced by proper calibration and correct instrument setting.</p>\\n  <p>In contrast, <strong>random errors</strong> are unpredictable fluctuations.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Systematic error.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 27",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitors are of two types, namely ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Fixed capacitors and Variable capacitors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Two Main Types of Capacitors</h4>\\n  <p>Based on adjustability, capacitors are classified as:</p>\\n  <ul>\\n    <li><strong>Fixed capacitors</strong> – Capacitance value cannot be changed (e.g., ceramic, electrolytic, film).</li>\\n    <li><strong>Variable capacitors</strong> – Capacitance can be adjusted manually (e.g., tuning capacitors in radios, trimmer capacitors).</li>\\n  </ul>\\n  <p>Another classification is <strong>polarized</strong> (electrolytic) vs <strong>non‑polarized</strong> (ceramic, film). But the most common basic division is fixed vs variable.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Fixed capacitors and Variable capacitors.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 28",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Show the symbol of Electrolytic capacitors & non electrolytic capacitors.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Symbols described in explanation using text and ASCII."
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Capacitor Symbols</h4>\\n  <p><strong>Non‑electrolytic (general) capacitor symbol:</strong><br/>\\n  Two parallel lines of equal length (sometimes one curved for polarized, but standard non‑polarized uses straight lines).<br/>\\n  <code>──||──</code>  (both plates straight)</p>\\n  <p><strong>Electrolytic (polarized) capacitor symbol:</strong><br/>\\n  One curved line (negative) and one straight line (positive). Sometimes a plus sign (+) is added near the straight plate.<br/>\\n  <code>──|(──</code>  or <code>──|)──</code> with plus on straight side.</p>\\n  <p>In many circuit diagrams:</p>\\n  <ul>\\n    <li>Non‑polarized: two equal straight lines.</li>\\n    <li>Electrolytic: straight line (positive) and curved line (negative). Often a ‘+’ marks the positive terminal.</li>\\n  </ul>\\n  <p>Draw neatly in your answer sheet. For example:<br/>\\n  Electrolytic:  <code>──|(──</code>  (positive left, negative right)<br/>\\n  Non‑electrolytic: <code>──||──</code></p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    📘 <strong>Remember:</strong> The curved plate always represents the negative terminal in polarized capacitors.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 29",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "The worn part of an instrument or effect of environment on the equipment leads to ______ error.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Systematic error"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Systematic Error from Wear or Environment</h4>\\n  <p>Worn parts (e.g., loose bearings, stretched springs) and environmental effects (temperature, humidity, vibration) cause consistent, repeatable errors – these are <strong>systematic errors</strong>.</p>\\n  <p>Unlike random errors, systematic errors can often be identified and corrected by recalibration, replacing worn parts, or controlling environmental conditions.</p>\\n  <p>Example: A thermometer that reads 2°C too high due to aging – every measurement is offset by +2°C. That is systematic.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Systematic error.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 30",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitors whose capacitance are fixed are referred as ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Fixed capacitors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Fixed Capacitors</h4>\\n  <p>Capacitors with a <strong>constant, non‑adjustable capacitance</strong> are called <strong>fixed capacitors</strong>. They are the most common type.</p>\\n  <p>Examples: ceramic disc capacitors, electrolytic capacitors, polyester film capacitors, mica capacitors. Their value is marked on the body (e.g., 10 µF, 100 nF).</p>\\n  <p>The opposite is <strong>variable capacitors</strong> (tuning capacitors, trimmers).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Fixed capacitors.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 31",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "Capacitors whose capacitance can be varied are referred to as ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Variable capacitors"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Variable Capacitors</h4>\\n  <p>Capacitors whose capacitance can be changed manually or electronically are called <strong>variable capacitors</strong>. They are used in tuning circuits (e.g., radio receivers) to adjust the resonant frequency.</p>\\n  <p>Common types: air variable capacitors, trimmer capacitors (small adjustments), and varactor diodes (voltage‑controlled).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Variable capacitors.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 32",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "______ is the resistor that has cylindrical resistance body made from carbon granules.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Carbon composition resistor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Carbon Composition Resistor</h4>\\n  <p>A <strong>carbon composition resistor</strong> is made by mixing carbon granules with a binder and molding them into a cylindrical shape. The resistance is determined by the ratio of carbon to filler.</p>\\n  <p>These resistors are inexpensive but have higher noise and wider tolerance (±5% to ±20%). They were common in old electronics but have been largely replaced by metal film and carbon film resistors.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Carbon composition resistor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 33",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "In a circuit diagram a capacitor is usually denoted with the letter ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Capacitor Reference Designator</h4>\\n  <p>In circuit diagrams, capacitors are labeled with the letter <strong>C</strong> followed by a number (e.g., C1, C2). This is the standard reference designator according to electronics conventions.</p>\\n  <p>Other common letters: R for resistor, L for inductor, D for diode, Q for transistor.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> C.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 34",
+    "topic": ["Capacitors and Capacitance"],
+    "Question": {
+      "content": "The two types of variable capacitors are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Air variable capacitors and trimmer capacitors (or tuning capacitors and trimmer capacitors)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of Variable Capacitors</h4>\\n  <p>The two main types are:</p>\\n  <ul>\\n    <li><strong>Tuning (air) variable capacitors</strong> – Used in radios and oscillators. They have interleaved plates that rotate to change capacitance.</li>\\n    <li><strong>Trimmer capacitors</strong> – Small, semi‑variable capacitors for calibration. Adjusted once during setup using a screwdriver.</li>\\n  </ul>\\n  <p>Another classification: mechanical variable (air/trimmer) and electronic variable (varactor diodes). However, the classic answer is <strong>air variable</strong> and <strong>trimmer</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Air variable and trimmer capacitors.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 35",
+    "topic": ["Resistors / Capacitors / Measurement Errors"],
+    "Question": {
+      "content": "______ Resistor looks like the wire wound resistor but consists of a string of wire connected along with it during overload.",
+      "type": "OBJ",
+      "options": [
+        "Carbon film",
+        "Mercury film",
+        "Carbon composite",
+        "Fusible resistor"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Fusible resistor"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Fusible Resistor</h4>\\n  <p>A <strong>fusible resistor</strong> is designed to act like a resistor during normal operation but to fuse (burn open) like a fuse when overloaded. It looks similar to a wirewound resistor but has a special construction that melts under excessive current, protecting the circuit.</p>\\n  <p>Other options: carbon film and carbon composite are standard resistors without fusing capability; mercury film is not common.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Fusible resistor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 36",
+    "topic": ["Resistors / Capacitors / Measurement Errors"],
+    "Question": {
+      "content": "______ are errors due to causes that cannot be directly established.",
+      "type": "OBJ",
+      "options": [
+        "Absolute",
+        "Random",
+        "Instrumental",
+        "Improper/Gross"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Random"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Random Errors</h4>\\n  <p><strong>Random errors</strong> (also called accidental errors) are unpredictable variations that occur even when measurements are repeated under the same conditions. Their causes cannot be directly fixed because they come from unknown or uncontrollable factors (e.g., minute temperature fluctuations, electronic noise, vibrations).</p>\\n  <p>In contrast, systematic errors have identifiable causes (calibration, wear), and gross errors are human mistakes.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Random.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 37",
+    "topic": ["Resistors / Capacitors / Measurement Errors"],
+    "Question": {
+      "content": "Which of the following capacitors is marked by polarity?",
+      "type": "OBJ",
+      "options": [
+        "Air",
+        "Paper",
+        "Mica",
+        "Electrolyte"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electrolyte"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Polarized Capacitors</h4>\\n  <p><strong>Electrolytic capacitors</strong> (electrolyte type) are polarized – they have positive and negative terminals. They are marked with a plus (+) sign or a minus (−) stripe to indicate polarity. Connecting them backwards can cause damage or explosion.</p>\\n  <p>Air, paper, and mica capacitors are non‑polarized and can be connected in any direction.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Electrolyte.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 38",
+    "topic": ["Resistors / Capacitors / Measurement Errors"],
+    "Question": {
+      "content": "Energy is stored by a capacitor in a",
+      "type": "OBJ",
+      "options": [
+        "Magnetic Field",
+        "Football Field",
+        "Electric Field",
+        "Battle Field"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Electric Field"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Energy Storage in a Capacitor</h4>\\n  <p>A capacitor stores energy in the <strong>electric field</strong> created between its two plates when a voltage is applied. This is different from an inductor, which stores energy in a magnetic field.</p>\\n  <p>The energy formula: \\( E = \\frac{1}{2} C V^2 \\), where \\(C\\) is capacitance and \\(V\\) is voltage.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Electric Field.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 39",
+    "topic": ["Resistors / Capacitors / Measurement Errors"],
+    "Question": {
+      "content": "The Ohm is the unit of capacitance",
+      "type": "OBJ",
+      "options": ["True", "False"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "False"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Units of Capacitance</h4>\\n  <p>The <strong>ohm (Ω)</strong> is the unit of electrical resistance, not capacitance. Capacitance is measured in <strong>farads (F)</strong>.</p>\\n  <p>Ohm's law relates voltage, current, and resistance. Capacitance relates charge and voltage: \\( C = Q/V \\).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> False.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 40",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "______ is an active electronic component that allows the flow of current in one direction.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Diode"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Diode</h4>\\n  <p>A <strong>diode</strong> is an active electronic component (it can amplify? Actually diodes are considered active because they have nonlinear behavior and are used in rectification, but some call them passive. However, standard classification: diodes are active because they can control current direction without external power? Typically, diodes are passive but many textbooks say active due to semiconductor junction. The question says active – common in exams: diode is active.)</p>\\n  <p>Key property: allows current to flow in only one direction (from anode to cathode). This is called <strong>unidirectional conduction</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Diode.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 41",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The two terminals of a diode are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Anode and Cathode"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Diode Terminals</h4>\\n  <p>A diode has two terminals:</p>\\n  <ul>\\n    <li><strong>Anode (A)</strong> – positive terminal. Current enters here.</li>\\n    <li><strong>Cathode (K)</strong> – negative terminal. Current leaves here.</li>\\n  </ul>\\n  <p>In the symbol, the triangle points from anode to cathode. The cathode is marked by a line or stripe on the physical component.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Anode and Cathode.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 42",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "Diodes come in different types namely: i ______ ii ______ iii ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rectifier diode, Zener diode, Light Emitting Diode (LED)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of Diodes</h4>\\n  <p>Many types exist. Three common ones:</p>\\n  <ol>\\n    <li><strong>Rectifier diode</strong> – used to convert AC to DC.</li>\\n    <li><strong>Zener diode</strong> – operates in reverse breakdown for voltage regulation.</li>\\n    <li><strong>Light Emitting Diode (LED)</strong> – emits light when forward biased.</li>\\n  </ol>\\n  <p>Other types: Schottky, tunnel, varactor, photodiode, etc.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer (example):</strong> Rectifier diode, Zener diode, LED.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 43",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "Diodes are made up of ______ materials.",
+      "type": "OBJ",
+      "options": [
+        "Conducting",
+        "Insulating",
+        "Semi-conducting",
+        "All of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Semi-conducting"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Diode Material</h4>\\n  <p>Diodes are made from <strong>semiconducting materials</strong> – typically silicon (Si) or germanium (Ge). Semiconductors have conductivity between conductors and insulators, and their properties can be modified by doping to create p‑n junctions.</p>\\n  <p>Conductors (like copper) would not create a diode effect. Insulators block current entirely.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Semi-conducting.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 44",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "Diode is a ______ device.",
+      "type": "OBJ",
+      "options": [
+        "Unidirectional",
+        "Bi-directional",
+        "Non-linear",
+        "Both A and C"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Both A and C"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Diode Characteristics</h4>\\n  <p>A diode is:</p>\\n  <ul>\\n    <li><strong>Unidirectional</strong> – conducts current in only one direction (forward bias) and blocks in reverse bias.</li>\\n    <li><strong>Non-linear</strong> – its current‑voltage relationship is not a straight line; the resistance changes with voltage.</li>\\n  </ul>\\n  <p>It is not bi‑directional (that would be a resistor or two back‑to‑back diodes). So the correct answer is <strong>Both A and C</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Both A and C.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 45",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The application of external voltage to the terminal of a diode is termed as ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Biasing"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Biasing of a Diode</h4>\\n  <p><strong>Biasing</strong> means applying an external voltage across the terminals of a diode to control its operation. There are two types:</p>\\n  <ul>\\n    <li><strong>Forward bias</strong> – diode conducts current.</li>\\n    <li><strong>Reverse bias</strong> – diode blocks current (except Zener breakdown).</li>\\n  </ul>\\n  <p>Without biasing, the diode is inactive.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Biasing.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 46",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The two types of biasing are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Forward bias and Reverse bias"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of Biasing</h4>\\n  <p>The two types are:</p>\\n  <ul>\\n    <li><strong>Forward bias</strong> – positive voltage applied to anode (p‑side), negative to cathode (n‑side). Diode conducts.</li>\\n    <li><strong>Reverse bias</strong> – positive to cathode, negative to anode. Diode blocks current (except tiny leakage).</li>\\n  </ul>\\n  <p>Zener diodes are designed to conduct in reverse bias at a specific voltage.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Forward bias and Reverse bias.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 47",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "If the applied voltage polarity matches the polarity of the diode, it is ______ and the diode gets turned ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "forward biased, ON"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Forward Bias Operation</h4>\\n  <p>When the external voltage polarity matches the diode's internal polarity (positive to p‑type anode, negative to n‑type cathode), the diode is <strong>forward biased</strong>. The depletion region narrows, and current flows. The diode is turned <strong>ON</strong> (conducting).</p>\\n  <p>For a silicon diode, forward voltage drop is about 0.7 V.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> forward biased, ON.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 48",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "______ are used to convert AC into DC.",
+      "type": "OBJ",
+      "options": [
+        "Rectifier diodes",
+        "Switching diodes",
+        "Tunnel diodes",
+        "Varactor diodes"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rectifier diodes"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Rectifier Diodes</h4>\\n  <p><strong>Rectifier diodes</strong> are specifically designed to convert alternating current (AC) to direct current (DC). This process is called <strong>rectification</strong>. They handle high current and voltage.</p>\\n  <p>Other diodes: switching diodes (fast on/off), tunnel diodes (negative resistance), varactor diodes (voltage‑controlled capacitance).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Rectifier diodes.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 49",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The process of converting an Alternating Current (AC) is termed ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Rectification"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Rectification</h4>\\n  <p><strong>Rectification</strong> is the process of converting AC (which reverses direction periodically) into DC (which flows in one direction). Diodes are used because they conduct only in one direction.</p>\\n  <p>Types: half‑wave rectification and full‑wave rectification.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Rectification.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 50",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "There are two types of rectification, namely ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Half-wave rectification and Full-wave rectification"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of Rectification</h4>\\n  <p>The two main types are:</p>\\n  <ul>\\n    <li><strong>Half‑wave rectification</strong> – uses only one diode. Converts only one half of the AC cycle (positive or negative). Output is pulsating DC with gaps.</li>\\n    <li><strong>Full‑wave rectification</strong> – uses two or four diodes. Converts both halves of the AC cycle to DC. Output is smoother.</li>\\n  </ul>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Half-wave rectification and Full-wave rectification.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 51",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "How many diodes does a half wave rectifier have?",
+      "type": "OBJ",
+      "options": ["One", "Two", "Three", "Four"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "One"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Half‑Wave Rectifier Diodes</h4>\\n  <p>A half‑wave rectifier uses only <strong>one diode</strong>. It allows only the positive (or negative) half of the AC waveform to pass, blocking the other half. The output is a pulsating DC with low average value and high ripple.</p>\\n  <p>In contrast:</p>\\n  <ul>\\n    <li>Full‑wave center‑tap rectifier uses 2 diodes.</li>\\n    <li>Full‑wave bridge rectifier uses 4 diodes.</li>\\n  </ul>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> One.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 52",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "A full wave rectifier has ______ number of diodes.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Two (for center-tap) or Four (for bridge)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Full‑Wave Rectifier Diodes</h4>\\n  <p>There are two common types of full‑wave rectifiers:</p>\\n  <ul>\\n    <li><strong>Center‑tap full‑wave rectifier</strong> – uses <strong>2 diodes</strong>.</li>\\n    <li><strong>Bridge full‑wave rectifier</strong> – uses <strong>4 diodes</strong>.</li>\\n  </ul>\\n  <p>Both convert both halves of the AC cycle into DC. The bridge type does not require a center‑tap transformer.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Two (or four depending on type). Most common answer: <strong>Four</strong> for a bridge rectifier or <strong>Two</strong> for center‑tap. The question likely expects <strong>Four</strong> as the general answer.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 53",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "______ is a special type of diode that has the ability to operate when reversed bias.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Zener diode"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Zener Diode</h4>\\n  <p>A <strong>Zener diode</strong> is specially designed to operate in reverse bias without being damaged. When the reverse voltage reaches a specific value called the <strong>Zener voltage</strong>, it conducts in reverse direction. This property is used for voltage regulation.</p>\\n  <p>Normal diodes (rectifier diodes) would be destroyed by reverse breakdown.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Zener diode.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 54",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "Which of these diodes conduct in reversed biased mode?",
+      "type": "OBJ",
+      "options": [
+        "LED",
+        "Zener diode",
+        "Rectifier diode",
+        "Both A and C"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Zener diode"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Reverse Bias Conduction</h4>\\n  <p>Among the options:</p>\\n  <ul>\\n    <li><strong>LED</strong> – conducts only in forward bias.</li>\\n    <li><strong>Zener diode</strong> – conducts in reverse bias when voltage exceeds Zener voltage.</li>\\n    <li><strong>Rectifier diode</strong> – blocks in reverse bias (only tiny leakage, not intended conduction).</li>\\n  </ul>\\n  <p>So the correct answer is <strong>Zener diode</strong>. Option Both A and C is incorrect because LED and rectifier do not conduct in reverse bias.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Zener diode.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 55",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The normal operating region for a Zener diode is ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Reverse breakdown region"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Zener Diode Operating Region</h4>\\n  <p>The normal operating region for a Zener diode is the <strong>reverse breakdown region</strong>. Here, the diode conducts a controlled amount of current while maintaining a nearly constant voltage (Zener voltage). This makes it ideal for voltage regulation.</p>\\n  <p>If forward biased, it behaves like a normal diode (0.7 V drop). But its special purpose is reverse breakdown.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Reverse breakdown region.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 56",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "What kind of sensor is the LDR Sensor?",
+      "type": "OBJ",
+      "options": ["Passive", "Active", "Radio", "Pressure based"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Passive"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>LDR Sensor Type</h4>\\n  <p>An <strong>LDR (Light Dependent Resistor)</strong> is a <strong>passive</strong> sensor. It does not generate its own electrical signal; it simply changes its resistance in response to light intensity. To measure the resistance change, you must apply an external voltage (e.g., in a voltage divider circuit).</p>\\n  <p>Active sensors (like photodiodes or phototransistors) generate current or voltage directly.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Passive.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 57",
+    "topic": ["Diodes and Rectification"],
+    "Question": {
+      "content": "The resistance of a LDR has a ______ relationship with the light intensity.",
+      "type": "OBJ",
+      "options": ["Direct", "Inverse"]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Inverse"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>LDR Resistance vs Light Intensity</h4>\\n  <p>The resistance of an LDR has an <strong>inverse relationship</strong> with light intensity. This means:</p>\\n  <ul>\\n    <li>More light → lower resistance</li>\\n    <li>Less light (dark) → higher resistance</li>\\n  </ul>\\n  <p>For example, in bright sunlight resistance might be a few hundred ohms; in darkness it can be several megaohms (millions of ohms).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Inverse.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 58",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "______ is a three terminal semi-conductor component that is used in a circuit for switching voltage stabilization or amplification of signals.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Transistor (BJT - Bipolar Junction Transistor)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Transistor</h4>\\n  <p>A <strong>transistor</strong> is a three‑terminal semiconductor device. It can be used for:</p>\\n  <ul>\\n    <li><strong>Amplification</strong> – increasing signal strength.</li>\\n    <li><strong>Switching</strong> – turning current on/off.</li>\\n    <li><strong>Voltage stabilization</strong> – in regulator circuits.</li>\\n  </ul>\\n  <p>The three terminals of a BJT (Bipolar Junction Transistor) are: Emitter (E), Base (B), Collector (C).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Transistor.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 59",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The two common types of transistors are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "BJT (Bipolar Junction Transistor) and FET (Field Effect Transistor)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Two Main Types of Transistors</h4>\\n  <p>The two common types are:</p>\\n  <ul>\\n    <li><strong>BJT (Bipolar Junction Transistor)</strong> – uses both electrons and holes as charge carriers. Current-controlled device.</li>\\n    <li><strong>FET (Field Effect Transistor)</strong> – uses only one type of charge carrier. Voltage-controlled device (e.g., MOSFET, JFET).</li>\\n  </ul>\\n  <p>BJTs are further divided into NPN and PNP. FETs are divided into JFET and MOSFET.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> BJT and FET.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 60",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The BJT has two types, namely ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "NPN and PNP"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Types of BJT</h4>\\n  <p>Bipolar Junction Transistors come in two polarity types:</p>\\n  <ul>\\n    <li><strong>NPN</strong> – has an N-type emitter, P-type base, N-type collector. Current flows from collector to emitter when base is positive relative to emitter.</li>\\n    <li><strong>PNP</strong> – has a P-type emitter, N-type base, P-type collector. Current flows from emitter to collector when base is negative relative to emitter.</li>\\n  </ul>\\n  <p>NPN is more commonly used because electrons move faster than holes.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> NPN and PNP.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 61",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "How many terminals do BJT's have?",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Three"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>BJT Terminals</h4>\\n  <p>A BJT (Bipolar Junction Transistor) has <strong>three terminals</strong>:</p>\\n  <ul>\\n    <li><strong>Emitter (E)</strong> – emits charge carriers.</li>\\n    <li><strong>Base (B)</strong> – controls the current flow.</li>\\n    <li><strong>Collector (C)</strong> – collects charge carriers.</li>\\n  </ul>\\n  <p>This is why transistors are often called three-terminal devices.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Three.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 62",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The most common application or use of a Zener diode is in ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Voltage regulation (or Voltage stabilization)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Zener Diode Application</h4>\\n  <p>The most common use of a <strong>Zener diode</strong> is <strong>voltage regulation</strong>. When reverse biased beyond its breakdown voltage, it maintains a nearly constant voltage across its terminals despite changes in current. This makes it ideal for providing a stable reference voltage in power supplies.</p>\\n  <p>Other uses: overvoltage protection, clipping circuits.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Voltage regulation.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 63",
+    "topic": ["Atomic Structure and Quantum Theory"],
+    "Question": {
+      "content": "______ (LED) is also a special type of diode which emits light when connected in its forward bias mode.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Light Emitting Diode"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Light Emitting Diode (LED)</h4>\\n  <p>An <strong>LED (Light Emitting Diode)</strong> is a special diode that emits visible or infrared light when forward biased (current flows through it). The light is produced by <strong>electroluminescence</strong> – electrons recombine with holes and release energy as photons.</p>\\n  <p>LEDs are used in indicators, displays, lighting, and optical communication.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Light Emitting Diode.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 64",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "Light emitting diodes emits light when it is in;",
+      "type": "OBJ",
+      "options": [
+        "Forward biased",
+        "Reverse biased",
+        "Zero biasing",
+        "Infinite biasing"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Forward biased"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>LED Biasing</h4>\\n  <p>An LED emits light only when it is <strong>forward biased</strong> (positive voltage on anode, negative on cathode). In forward bias, electrons cross the junction and recombine with holes, releasing energy as light.</p>\\n  <p>In reverse bias, an LED does not conduct (except tiny leakage) and does not emit light. Applying too much reverse voltage can damage it.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> Forward biased.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 65",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "______ is a photo-resistor that has the ability to change resistance with light intensity.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "LDR (Light Dependent Resistor)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>LDR (Light Dependent Resistor)</h4>\\n  <p>An <strong>LDR</strong> (also called photoresistor) is a passive component whose resistance changes with light intensity. It is made from a high‑resistance semiconductor material (often cadmium sulfide).</p>\\n  <ul>\\n    <li><strong>More light</strong> → lower resistance.</li>\\n    <li><strong>Less light</strong> → higher resistance.</li>\\n  </ul>\\n  <p>Used in light sensors, automatic street lights, alarm systems.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> LDR (Light Dependent Resistor).\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 66",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The resistance of the LDR decreases as the light intensity ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "increases"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>LDR Resistance vs Light Intensity</h4>\\n  <p>LDR (Light Dependent Resistor) has an <strong>inverse relationship</strong> with light intensity.</p>\\n  <ul>\\n    <li>When light intensity <strong>increases</strong>, resistance <strong>decreases</strong>.</li>\\n    <li>When light intensity <strong>decreases</strong> (darkness), resistance <strong>increases</strong>.</li>\\n  </ul>\\n  <p>This happens because light photons excite electrons in the semiconductor material, allowing more current to flow.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> increases.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 67",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The three terminals of the BJT are ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Emitter, Base, Collector"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>BJT Terminals</h4>\\n  <p>A Bipolar Junction Transistor (BJT) has three terminals:</p>\\n  <ul>\\n    <li><strong>Emitter (E)</strong> – emits charge carriers (electrons for NPN, holes for PNP).</li>\\n    <li><strong>Base (B)</strong> – the control terminal; a small current here controls a larger current between emitter and collector.</li>\\n    <li><strong>Collector (C)</strong> – collects the charge carriers from the emitter.</li>\\n  </ul>\\n  <p>In circuit diagrams, E, B, and C labels are used.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Emitter, Base, Collector.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 68",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The emitter and collector of an NPN transistor are made up of ______ semiconductor.",
+      "type": "OBJ",
+      "options": [
+        "N-type",
+        "P-type",
+        "Both A and B",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N-type"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>NPN Transistor Structure</h4>\\n  <p>An <strong>NPN transistor</strong> has the following layered structure:</p>\\n  <ul>\\n    <li><strong>Emitter</strong> – N-type (heavily doped)</li>\\n    <li><strong>Base</strong> – P-type (thin, lightly doped)</li>\\n    <li><strong>Collector</strong> – N-type (moderately doped)</li>\\n  </ul>\\n  <p>So both the emitter and collector are made of <strong>N-type</strong> semiconductor. The base is P-type.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> N-type.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 69",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The base of PNP transistors are made up of ______ semiconductor.",
+      "type": "OBJ",
+      "options": [
+        "N-type",
+        "P-type",
+        "Both A and B",
+        "None of the above"
+      ]
+    },
+    "Answer": {
+      "type": "string",
+      "content": "N-type"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>PNP Transistor Structure</h4>\\n  <p>A <strong>PNP transistor</strong> has the opposite doping:</p>\\n  <ul>\\n    <li><strong>Emitter</strong> – P-type (heavily doped)</li>\\n    <li><strong>Base</strong> – N-type (thin, lightly doped)</li>\\n    <li><strong>Collector</strong> – P-type (moderately doped)</li>\\n  </ul>\\n  <p>Therefore, the <strong>base</strong> of a PNP transistor is made of <strong>N-type</strong> semiconductor.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Correct answer:</strong> N-type.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 70",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "______ is used to enhanced semi-conductor.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Doping"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Doping in Semiconductors</h4>\\n  <p><strong>Doping</strong> is the process of adding impurity atoms to a pure semiconductor (like silicon or germanium) to enhance (increase) its electrical conductivity. This creates either:</p>\\n  <ul>\\n    <li><strong>N-type</strong> – added atoms with extra electrons (e.g., phosphorus).</li>\\n    <li><strong>P-type</strong> – added atoms with fewer electrons (holes) (e.g., boron).</li>\\n  </ul>\\n  <p>Doping is essential for making diodes, transistors, and integrated circuits.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Doping.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 71",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The supply of a suitable external DC voltage to transistor is called ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Biasing (or DC biasing)"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Transistor Biasing</h4>\\n  <p><strong>Biasing</strong> means applying a fixed external DC voltage to the transistor terminals (base, emitter, collector) to establish a proper operating point (Q-point). This ensures the transistor works correctly for amplification or switching.</p>\\n  <p>Without proper biasing, the transistor may be cut off (off) or saturated (fully on) and not amplify signals correctly.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Biasing (DC biasing).\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 72",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The three regions of operation of a transistor are ______, ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cutoff region, Active region (Linear region), Saturation region"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Transistor Operating Regions</h4>\\n  <p>BJTs have three main regions of operation:</p>\\n  <ul>\\n    <li><strong>Cutoff region</strong> – Transistor is OFF (no current flow). Both junctions reverse biased. Used for switching OFF.</li>\\n    <li><strong>Active region (Linear region)</strong> – Transistor acts as an amplifier. Base-emitter forward biased, base-collector reverse biased. Collector current is proportional to base current.</li>\\n    <li><strong>Saturation region</strong> – Transistor is fully ON (maximum current). Both junctions forward biased. Used for switching ON (like a closed switch).</li>\\n  </ul>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Cutoff, Active (Linear), Saturation.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 72",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The three regions of operation of a transistor are ______, ______ and ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Cutoff region, Active region (Linear region), Saturation region"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Transistor Operating Regions</h4>\\n  <p>A BJT (Bipolar Junction Transistor) has three main regions of operation:</p>\\n  <ul>\\n    <li><strong>Cutoff region</strong> – Transistor is OFF. No current flows from collector to emitter. Both junctions are reverse biased. Used as an open switch.</li>\\n    <li><strong>Active region (Linear region)</strong> – Transistor acts as an amplifier. Base-emitter forward biased, base-collector reverse biased. Collector current is proportional to base current (\\( I_C = \\beta I_B \\)).</li>\\n    <li><strong>Saturation region</strong> – Transistor is fully ON. Maximum current flows. Both junctions forward biased. Used as a closed switch.</li>\\n  </ul>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Cutoff, Active, Saturation.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 73",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "In the active region, the transistor acts as ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "an amplifier"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Transistor in Active Region</h4>\\n  <p>When a transistor is biased in the <strong>active region</strong>, it acts as an <strong>amplifier</strong>. A small change in base current causes a large change in collector current. This current amplification is the basis for amplifying weak signals (voltage, current, or power).</p>\\n  <p>The current gain is given by \\( \\beta = \\frac{I_C}{I_B} \\) (typical values 50–300).</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> an amplifier.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 74",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "The process of increasing the strength of a signal is termed ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "Amplification"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Amplification</h4>\\n  <p><strong>Amplification</strong> is the process of increasing the strength (amplitude, power, or voltage) of an electrical signal. This is achieved using active components like transistors or operational amplifiers.</p>\\n  <p>Examples: audio amplifier (makes sound louder), radio frequency amplifier (boosts weak radio signals).</p>\\n  <p>The device that does this is called an <strong>amplifier</strong>.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> Amplification.\\n  </div>\\n</div>"
+    }
+  },
+  {
+    "type": "Question",
+    "name": "Question 75",
+    "topic": ["Transistors and Amplifiers"],
+    "Question": {
+      "content": "In transistor an amplifier is used to ______.",
+      "type": "subjective"
+    },
+    "Answer": {
+      "type": "string",
+      "content": "increase the amplitude (strength) of a signal"
+    },
+    "Explanation": {
+      "type": "string",
+      "content": "<div style='color: var(--explainColor); background: var(--explainBg); padding: 15px; border-radius: 8px; border-left: 4px solid var(--strongColor);'>\\n  <h4 style='color: var(--strongColor);'>Purpose of a Transistor Amplifier</h4>\\n  <p>A transistor amplifier is used to <strong>increase the amplitude (strength) of a weak input signal</strong> – whether voltage, current, or power – to a higher level suitable for driving speakers, antennas, or other circuits.</p>\\n  <p>Key point: The amplifier does not create energy; it takes DC power from the power supply and converts it into AC signal power based on the small input signal.</p>\\n  <div style='background: var(--preset-bg-color); padding: 10px; border-radius: 6px;'>\\n    ✅ <strong>Answer:</strong> increase the amplitude (strength) of a signal.\\n  </div>\\n</div>"
+    }
+  }
+
+] 
